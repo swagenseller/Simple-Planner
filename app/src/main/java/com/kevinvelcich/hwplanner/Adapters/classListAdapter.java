@@ -141,7 +141,7 @@ public class classListAdapter extends CursorAdapter {
                                                             Cursor c = dbAssignment.getAssignments(mClass.getClassName());
                                                             if (c.moveToFirst()) {
                                                                 do {
-                                                                    dbAssignment.deleteAssignment(c.getString(cursor.getColumnIndex(DatabaseAssignment.COLUMN_NAME)));
+                                                                    dbAssignment.deleteAssignment(c.getString(c.getColumnIndex(DatabaseAssignment.COLUMN_NAME)));
                                                                 } while (c.moveToNext());
                                                             }
                                                             c.close();

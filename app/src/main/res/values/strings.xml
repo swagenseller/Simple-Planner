@@ -7,4 +7,7 @@
     <string name="assignment_name">Assignment name:</string>
     <string name="assignment_hint">Worksheet, etc&#8230;</string>
     <string name="assignment_description">Assignment description:</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="hello_world">Hello world!</string>
 </resources>
